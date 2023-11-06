@@ -1,5 +1,5 @@
 {% set name = "brainreg-napari" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/brainreg-napari-{{ version }}.tar.gz
-  sha256: 86741229634c6c8c1674502f3312173323c9154bdb8bbec702f470708420a4c7
+  sha256: 25eba0bd7ef11f7f6fb9c6dae0ce74cb47ec21afa331ed54c4f6428f6d1f00ec
 
 build:
   noarch: python
